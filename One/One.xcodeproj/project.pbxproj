@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9FA576784EF5DA9D7057682 /* Pods_One.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7192DC4AF6748C5C1836193 /* Pods_One.framework */; };
+		DD5689251D61D007007C65FB /* app_home.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5689191D61D007007C65FB /* app_home.png */; };
+		DD5689261D61D007007C65FB /* app_home@1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD56891A1D61D007007C65FB /* app_home@1.png */; };
+		DD5689271D61D007007C65FB /* app_home@2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD56891B1D61D007007C65FB /* app_home@2.png */; };
+		DD5689281D61D007007C65FB /* app_movie.png in Resources */ = {isa = PBXBuildFile; fileRef = DD56891C1D61D007007C65FB /* app_movie.png */; };
+		DD5689291D61D007007C65FB /* app_movie@1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD56891D1D61D007007C65FB /* app_movie@1.png */; };
+		DD56892A1D61D007007C65FB /* app_movie@2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD56891E1D61D007007C65FB /* app_movie@2.png */; };
+		DD56892B1D61D007007C65FB /* app_music.png in Resources */ = {isa = PBXBuildFile; fileRef = DD56891F1D61D007007C65FB /* app_music.png */; };
+		DD56892C1D61D007007C65FB /* app_music@1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5689201D61D007007C65FB /* app_music@1.png */; };
+		DD56892D1D61D007007C65FB /* app_music@2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5689211D61D007007C65FB /* app_music@2.png */; };
+		DD56892E1D61D007007C65FB /* app_read.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5689221D61D007007C65FB /* app_read.png */; };
+		DD56892F1D61D007007C65FB /* app_read@1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5689231D61D007007C65FB /* app_read@1.png */; };
+		DD5689301D61D007007C65FB /* app_read@2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5689241D61D007007C65FB /* app_read@2.png */; };
 		DD5B605C1D61AC260094950D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B605B1D61AC260094950D /* AppDelegate.swift */; };
 		DD5B605E1D61AC260094950D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B605D1D61AC260094950D /* ViewController.swift */; };
 		DD5B60611D61AC260094950D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5B605F1D61AC260094950D /* Main.storyboard */; };
@@ -14,10 +27,32 @@
 		DD5B60661D61AC260094950D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60641D61AC260094950D /* LaunchScreen.storyboard */; };
 		DD5B60711D61AC260094950D /* OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60701D61AC260094950D /* OneTests.swift */; };
 		DD5B607C1D61AC260094950D /* OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B607B1D61AC260094950D /* OneUITests.swift */; };
-		DD5B60A51D61AEE50094950D /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60A11D61AEE50094950D /* 1.gif */; };
-		DD5B60A61D61AEE50094950D /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60A21D61AEE50094950D /* 2.gif */; };
-		DD5B60A71D61AEE50094950D /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60A31D61AEE50094950D /* 3.gif */; };
-		DD5B60A81D61AEE50094950D /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60A41D61AEE50094950D /* 4.gif */; };
+		DD5B60AA1D61B2B40094950D /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60A91D61B2B40094950D /* UIImage+Gif.swift */; };
+		DD5B60AE1D61B3800094950D /* LaunchImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60AD1D61B3800094950D /* LaunchImageViewController.swift */; };
+		DD5B60C01D61BE390094950D /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B11D61BE390094950D /* AppIcon29x29@2x.png */; };
+		DD5B60C11D61BE390094950D /* AppIcon29x29@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B21D61BE390094950D /* AppIcon29x29@2x~ipad.png */; };
+		DD5B60C21D61BE390094950D /* AppIcon29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B31D61BE390094950D /* AppIcon29x29@3x.png */; };
+		DD5B60C31D61BE390094950D /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B41D61BE390094950D /* AppIcon40x40@2x.png */; };
+		DD5B60C41D61BE390094950D /* AppIcon40x40@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B51D61BE390094950D /* AppIcon40x40@2x~ipad.png */; };
+		DD5B60C51D61BE390094950D /* AppIcon40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B61D61BE390094950D /* AppIcon40x40@3x.png */; };
+		DD5B60C61D61BE390094950D /* AppIcon40x40~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B71D61BE390094950D /* AppIcon40x40~ipad.png */; };
+		DD5B60C71D61BE390094950D /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B81D61BE390094950D /* AppIcon60x60@2x.png */; };
+		DD5B60C81D61BE390094950D /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60B91D61BE390094950D /* AppIcon60x60@3x.png */; };
+		DD5B60C91D61BE390094950D /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60BB1D61BE390094950D /* LaunchImage-700-568h@2x.png */; };
+		DD5B60CA1D61BE390094950D /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60BC1D61BE390094950D /* LaunchImage-700@2x.png */; };
+		DD5B60CB1D61BE390094950D /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60BD1D61BE390094950D /* LaunchImage-800-667h@2x.png */; };
+		DD5B60CC1D61BE390094950D /* LaunchImage-800-Landscape-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60BE1D61BE390094950D /* LaunchImage-800-Landscape-736h@3x.png */; };
+		DD5B60CD1D61BE390094950D /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5B60BF1D61BE390094950D /* LaunchImage-800-Portrait-736h@3x.png */; };
+		DD5B60CF1D61BF900094950D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60CE1D61BF900094950D /* MainTabBarController.swift */; };
+		DD5B60D11D61BFE70094950D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60D01D61BFE70094950D /* BaseViewController.swift */; };
+		DD5B60D31D61BFF90094950D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60D21D61BFF90094950D /* HomeViewController.swift */; };
+		DD5B60D71D61C0160094950D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60D61D61C0160094950D /* MovieViewController.swift */; };
+		DD5B60D91D61C0220094950D /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60D81D61C0220094950D /* MusicViewController.swift */; };
+		DD5B60DB1D61C0330094950D /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60DA1D61C0330094950D /* ReadViewController.swift */; };
+		DD5B60DF1D61C2290094950D /* UIButton+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60DC1D61C2290094950D /* UIButton+Util.swift */; };
+		DD5B60E01D61C2290094950D /* UILabel+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60DD1D61C2290094950D /* UILabel+Util.swift */; };
+		DD5B60E11D61C2290094950D /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60DE1D61C2290094950D /* UIView+Util.swift */; };
+		DD5B60E51D61C51B0094950D /* LFConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B60E41D61C51B0094950D /* LFConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +73,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5595D86E23DF00D00BD8E8B3 /* Pods-One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-One.release.xcconfig"; path = "Pods/Target Support Files/Pods-One/Pods-One.release.xcconfig"; sourceTree = "<group>"; };
+		7F48818A8731C02DCA3A4C97 /* Pods-One.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-One.debug.xcconfig"; path = "Pods/Target Support Files/Pods-One/Pods-One.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5689191D61D007007C65FB /* app_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_home.png; sourceTree = "<group>"; };
+		DD56891A1D61D007007C65FB /* app_home@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_home@1.png"; sourceTree = "<group>"; };
+		DD56891B1D61D007007C65FB /* app_home@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_home@2.png"; sourceTree = "<group>"; };
+		DD56891C1D61D007007C65FB /* app_movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_movie.png; sourceTree = "<group>"; };
+		DD56891D1D61D007007C65FB /* app_movie@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_movie@1.png"; sourceTree = "<group>"; };
+		DD56891E1D61D007007C65FB /* app_movie@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_movie@2.png"; sourceTree = "<group>"; };
+		DD56891F1D61D007007C65FB /* app_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_music.png; sourceTree = "<group>"; };
+		DD5689201D61D007007C65FB /* app_music@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_music@1.png"; sourceTree = "<group>"; };
+		DD5689211D61D007007C65FB /* app_music@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_music@2.png"; sourceTree = "<group>"; };
+		DD5689221D61D007007C65FB /* app_read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_read.png; sourceTree = "<group>"; };
+		DD5689231D61D007007C65FB /* app_read@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_read@1.png"; sourceTree = "<group>"; };
+		DD5689241D61D007007C65FB /* app_read@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_read@2.png"; sourceTree = "<group>"; };
 		DD5B60581D61AC260094950D /* One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = One.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5B605B1D61AC260094950D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD5B605D1D61AC260094950D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +100,33 @@
 		DD5B60771D61AC260094950D /* OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5B607B1D61AC260094950D /* OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneUITests.swift; sourceTree = "<group>"; };
 		DD5B607D1D61AC260094950D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD5B60A11D61AEE50094950D /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
-		DD5B60A21D61AEE50094950D /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
-		DD5B60A31D61AEE50094950D /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
-		DD5B60A41D61AEE50094950D /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		DD5B60A91D61B2B40094950D /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		DD5B60AD1D61B3800094950D /* LaunchImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchImageViewController.swift; sourceTree = "<group>"; };
+		DD5B60B11D61BE390094950D /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		DD5B60B21D61BE390094950D /* AppIcon29x29@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x~ipad.png"; sourceTree = "<group>"; };
+		DD5B60B31D61BE390094950D /* AppIcon29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@3x.png"; sourceTree = "<group>"; };
+		DD5B60B41D61BE390094950D /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		DD5B60B51D61BE390094950D /* AppIcon40x40@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x~ipad.png"; sourceTree = "<group>"; };
+		DD5B60B61D61BE390094950D /* AppIcon40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@3x.png"; sourceTree = "<group>"; };
+		DD5B60B71D61BE390094950D /* AppIcon40x40~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40~ipad.png"; sourceTree = "<group>"; };
+		DD5B60B81D61BE390094950D /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		DD5B60B91D61BE390094950D /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		DD5B60BB1D61BE390094950D /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		DD5B60BC1D61BE390094950D /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		DD5B60BD1D61BE390094950D /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		DD5B60BE1D61BE390094950D /* LaunchImage-800-Landscape-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Landscape-736h@3x.png"; sourceTree = "<group>"; };
+		DD5B60BF1D61BE390094950D /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		DD5B60CE1D61BF900094950D /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DD5B60D01D61BFE70094950D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DD5B60D21D61BFF90094950D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DD5B60D61D61C0160094950D /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		DD5B60D81D61C0220094950D /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		DD5B60DA1D61C0330094950D /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		DD5B60DC1D61C2290094950D /* UIButton+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Util.swift"; sourceTree = "<group>"; };
+		DD5B60DD1D61C2290094950D /* UILabel+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Util.swift"; sourceTree = "<group>"; };
+		DD5B60DE1D61C2290094950D /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		DD5B60E41D61C51B0094950D /* LFConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFConst.swift; sourceTree = "<group>"; };
+		E7192DC4AF6748C5C1836193 /* Pods_One.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_One.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FA576784EF5DA9D7057682 /* Pods_One.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +155,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB6B35EAAFD11C81E1F0DC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F48818A8731C02DCA3A4C97 /* Pods-One.debug.xcconfig */,
+				5595D86E23DF00D00BD8E8B3 /* Pods-One.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B14562AD8EB68A8DC4D7901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7192DC4AF6748C5C1836193 /* Pods_One.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5689181D61D007007C65FB /* tarBar2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD5689191D61D007007C65FB /* app_home.png */,
+				DD56891A1D61D007007C65FB /* app_home@1.png */,
+				DD56891B1D61D007007C65FB /* app_home@2.png */,
+				DD56891C1D61D007007C65FB /* app_movie.png */,
+				DD56891D1D61D007007C65FB /* app_movie@1.png */,
+				DD56891E1D61D007007C65FB /* app_movie@2.png */,
+				DD56891F1D61D007007C65FB /* app_music.png */,
+				DD5689201D61D007007C65FB /* app_music@1.png */,
+				DD5689211D61D007007C65FB /* app_music@2.png */,
+				DD5689221D61D007007C65FB /* app_read.png */,
+				DD5689231D61D007007C65FB /* app_read@1.png */,
+				DD5689241D61D007007C65FB /* app_read@2.png */,
+			);
+			path = tarBar2;
+			sourceTree = "<group>";
+		};
 		DD5B604F1D61AC260094950D = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +198,8 @@
 				DD5B606F1D61AC260094950D /* OneTests */,
 				DD5B607A1D61AC260094950D /* OneUITests */,
 				DD5B60591D61AC260094950D /* Products */,
+				1AB6B35EAAFD11C81E1F0DC3 /* Pods */,
+				8B14562AD8EB68A8DC4D7901 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +216,6 @@
 		DD5B605A1D61AC260094950D /* One */ = {
 			isa = PBXGroup;
 			children = (
-				DD5B60A01D61AEE50094950D /* launchImage */,
 				DD5B60891D61AED00094950D /* classes */,
 				DD5B605B1D61AC260094950D /* AppDelegate.swift */,
 				DD5B605D1D61AC260094950D /* ViewController.swift */,
@@ -113,6 +223,7 @@
 				DD5B60621D61AC260094950D /* Assets.xcassets */,
 				DD5B60641D61AC260094950D /* LaunchScreen.storyboard */,
 				DD5B60671D61AC260094950D /* Info.plist */,
+				DD5B60AF1D61BE390094950D /* resouce */,
 			);
 			path = One;
 			sourceTree = "<group>";
@@ -151,6 +262,14 @@
 		DD5B608A1D61AED00094950D /* common */ = {
 			isa = PBXGroup;
 			children = (
+				DD5B60AD1D61B3800094950D /* LaunchImageViewController.swift */,
+				DD5B60CE1D61BF900094950D /* MainTabBarController.swift */,
+				DD5B60D01D61BFE70094950D /* BaseViewController.swift */,
+				DD5B60A91D61B2B40094950D /* UIImage+Gif.swift */,
+				DD5B60DC1D61C2290094950D /* UIButton+Util.swift */,
+				DD5B60DD1D61C2290094950D /* UILabel+Util.swift */,
+				DD5B60DE1D61C2290094950D /* UIView+Util.swift */,
+				DD5B60E41D61C51B0094950D /* LFConst.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -176,6 +295,7 @@
 		DD5B608D1D61AED00094950D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD5B60D21D61BFF90094950D /* HomeViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -215,6 +335,7 @@
 		DD5B60921D61AED00094950D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD5B60D61D61C0160094950D /* MovieViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -254,6 +375,7 @@
 		DD5B60971D61AED00094950D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD5B60D81D61C0220094950D /* MusicViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -293,6 +415,7 @@
 		DD5B609C1D61AED00094950D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD5B60DA1D61C0330094950D /* ReadViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -318,16 +441,43 @@
 			path = thirdParty;
 			sourceTree = "<group>";
 		};
-		DD5B60A01D61AEE50094950D /* launchImage */ = {
+		DD5B60AF1D61BE390094950D /* resouce */ = {
 			isa = PBXGroup;
 			children = (
-				DD5B60A11D61AEE50094950D /* 1.gif */,
-				DD5B60A21D61AEE50094950D /* 2.gif */,
-				DD5B60A31D61AEE50094950D /* 3.gif */,
-				DD5B60A41D61AEE50094950D /* 4.gif */,
+				DD5689181D61D007007C65FB /* tarBar2 */,
+				DD5B60B01D61BE390094950D /* appItem */,
+				DD5B60BA1D61BE390094950D /* launchImage */,
 			);
-			name = launchImage;
-			path = resouce/launchImage;
+			name = resouce;
+			path = classes/resouce;
+			sourceTree = "<group>";
+		};
+		DD5B60B01D61BE390094950D /* appItem */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B60B11D61BE390094950D /* AppIcon29x29@2x.png */,
+				DD5B60B21D61BE390094950D /* AppIcon29x29@2x~ipad.png */,
+				DD5B60B31D61BE390094950D /* AppIcon29x29@3x.png */,
+				DD5B60B41D61BE390094950D /* AppIcon40x40@2x.png */,
+				DD5B60B51D61BE390094950D /* AppIcon40x40@2x~ipad.png */,
+				DD5B60B61D61BE390094950D /* AppIcon40x40@3x.png */,
+				DD5B60B71D61BE390094950D /* AppIcon40x40~ipad.png */,
+				DD5B60B81D61BE390094950D /* AppIcon60x60@2x.png */,
+				DD5B60B91D61BE390094950D /* AppIcon60x60@3x.png */,
+			);
+			path = appItem;
+			sourceTree = "<group>";
+		};
+		DD5B60BA1D61BE390094950D /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B60BB1D61BE390094950D /* LaunchImage-700-568h@2x.png */,
+				DD5B60BC1D61BE390094950D /* LaunchImage-700@2x.png */,
+				DD5B60BD1D61BE390094950D /* LaunchImage-800-667h@2x.png */,
+				DD5B60BE1D61BE390094950D /* LaunchImage-800-Landscape-736h@3x.png */,
+				DD5B60BF1D61BE390094950D /* LaunchImage-800-Portrait-736h@3x.png */,
+			);
+			path = launchImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,9 +487,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD5B60801D61AC260094950D /* Build configuration list for PBXNativeTarget "One" */;
 			buildPhases = (
+				C61506F0098F801A9C1B6BC9 /* [CP] Check Pods Manifest.lock */,
 				DD5B60541D61AC260094950D /* Sources */,
 				DD5B60551D61AC260094950D /* Frameworks */,
 				DD5B60561D61AC260094950D /* Resources */,
+				314227C4E010566E2AD7BF28 /* [CP] Embed Pods Frameworks */,
+				2213093EB09810A57E217B0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,13 +587,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5B60A71D61AEE50094950D /* 3.gif in Resources */,
+				DD5B60C01D61BE390094950D /* AppIcon29x29@2x.png in Resources */,
+				DD5B60C21D61BE390094950D /* AppIcon29x29@3x.png in Resources */,
+				DD5689301D61D007007C65FB /* app_read@2.png in Resources */,
+				DD5689261D61D007007C65FB /* app_home@1.png in Resources */,
+				DD5689291D61D007007C65FB /* app_movie@1.png in Resources */,
+				DD56892A1D61D007007C65FB /* app_movie@2.png in Resources */,
+				DD5B60C31D61BE390094950D /* AppIcon40x40@2x.png in Resources */,
+				DD56892F1D61D007007C65FB /* app_read@1.png in Resources */,
+				DD5B60CC1D61BE390094950D /* LaunchImage-800-Landscape-736h@3x.png in Resources */,
+				DD5B60C41D61BE390094950D /* AppIcon40x40@2x~ipad.png in Resources */,
+				DD5B60C71D61BE390094950D /* AppIcon60x60@2x.png in Resources */,
+				DD56892B1D61D007007C65FB /* app_music.png in Resources */,
+				DD5689251D61D007007C65FB /* app_home.png in Resources */,
+				DD5B60CA1D61BE390094950D /* LaunchImage-700@2x.png in Resources */,
+				DD56892E1D61D007007C65FB /* app_read.png in Resources */,
+				DD5B60CD1D61BE390094950D /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				DD5B60C11D61BE390094950D /* AppIcon29x29@2x~ipad.png in Resources */,
 				DD5B60661D61AC260094950D /* LaunchScreen.storyboard in Resources */,
-				DD5B60A61D61AEE50094950D /* 2.gif in Resources */,
+				DD5689271D61D007007C65FB /* app_home@2.png in Resources */,
+				DD5B60C81D61BE390094950D /* AppIcon60x60@3x.png in Resources */,
+				DD56892D1D61D007007C65FB /* app_music@2.png in Resources */,
+				DD56892C1D61D007007C65FB /* app_music@1.png in Resources */,
+				DD5B60C61D61BE390094950D /* AppIcon40x40~ipad.png in Resources */,
+				DD5B60CB1D61BE390094950D /* LaunchImage-800-667h@2x.png in Resources */,
 				DD5B60631D61AC260094950D /* Assets.xcassets in Resources */,
-				DD5B60A51D61AEE50094950D /* 1.gif in Resources */,
+				DD5B60C91D61BE390094950D /* LaunchImage-700-568h@2x.png in Resources */,
+				DD5689281D61D007007C65FB /* app_movie.png in Resources */,
 				DD5B60611D61AC260094950D /* Main.storyboard in Resources */,
-				DD5B60A81D61AEE50094950D /* 4.gif in Resources */,
+				DD5B60C51D61BE390094950D /* AppIcon40x40@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,13 +635,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2213093EB09810A57E217B0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-One/Pods-One-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		314227C4E010566E2AD7BF28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-One/Pods-One-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61506F0098F801A9C1B6BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD5B60541D61AC260094950D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5B60AA1D61B2B40094950D /* UIImage+Gif.swift in Sources */,
+				DD5B60DF1D61C2290094950D /* UIButton+Util.swift in Sources */,
 				DD5B605E1D61AC260094950D /* ViewController.swift in Sources */,
+				DD5B60CF1D61BF900094950D /* MainTabBarController.swift in Sources */,
+				DD5B60E01D61C2290094950D /* UILabel+Util.swift in Sources */,
+				DD5B60D71D61C0160094950D /* MovieViewController.swift in Sources */,
+				DD5B60DB1D61C0330094950D /* ReadViewController.swift in Sources */,
 				DD5B605C1D61AC260094950D /* AppDelegate.swift in Sources */,
+				DD5B60AE1D61B3800094950D /* LaunchImageViewController.swift in Sources */,
+				DD5B60E51D61C51B0094950D /* LFConst.swift in Sources */,
+				DD5B60E11D61C2290094950D /* UIView+Util.swift in Sources */,
+				DD5B60D91D61C0220094950D /* MusicViewController.swift in Sources */,
+				DD5B60D31D61BFF90094950D /* HomeViewController.swift in Sources */,
+				DD5B60D11D61BFE70094950D /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,8 +841,10 @@
 		};
 		DD5B60811D61AC260094950D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F48818A8731C02DCA3A4C97 /* Pods-One.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = One/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -618,8 +855,10 @@
 		};
 		DD5B60821D61AC260094950D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5595D86E23DF00D00BD8E8B3 /* Pods-One.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = One/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -693,6 +932,7 @@
 				DD5B60821D61AC260094950D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5B60831D61AC260094950D /* Build configuration list for PBXNativeTarget "OneTests" */ = {
 			isa = XCConfigurationList;
@@ -701,6 +941,7 @@
 				DD5B60851D61AC260094950D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5B60861D61AC260094950D /* Build configuration list for PBXNativeTarget "OneUITests" */ = {
 			isa = XCConfigurationList;
@@ -709,6 +950,7 @@
 				DD5B60881D61AC260094950D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
