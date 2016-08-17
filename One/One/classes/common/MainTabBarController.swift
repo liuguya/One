@@ -19,7 +19,7 @@ class MainTabBarController: UITabBarController {
     }
     
     func createViewControllers(){
-        let ctrlNames = ["HomeViewController","ReadViewController","MusicViewController","MovieViewController"]
+        let ctrlNames = ["MovieViewController","ReadViewController","MusicViewController","HomeViewController"]
         
         let images = ["app_home@1","app_read@1","app_music@1","app_movie@1"]
         let selectImages = ["app_home@1","app_read@1","app_music@1","app_movie@1"]
